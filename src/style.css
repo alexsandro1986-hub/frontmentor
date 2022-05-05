@@ -1,0 +1,327 @@
+html{
+    font-size: 62.5%;
+}
+body{
+   
+   
+    background: url(../images/bg-curvy-desktop.svg) center center no-repeat; 
+    background-size: cover;
+    background-color: rgb(24, 21, 25);
+}
+
+
+.header .header-container{
+    display:flex; 
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header nav ul{
+    display: flex;
+
+}
+
+.header nav ul li a{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-right: 0px;
+}
+.header nav ul li a:hover{
+    color: #fff;
+    background-color: coral;
+}
+
+/* hero */
+.hero{
+     justify-content: center;
+    align-items: center;
+    position: relative;
+     
+     text-align: center;
+
+}
+.hero .hero-container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    bottom: 0px;
+    
+}
+
+.hero-container h2{
+    
+    bottom: 0px;
+}
+
+ .hero-container2 p{
+     
+     bottom: 0px;
+}
+
+.hero a:hover{
+    color: rgb(35, 35, 41);
+    font-size: 25px;
+}
+
+/* sobre */
+.sobre{
+    display:  grid ;
+    grid-template-columns: 2fr 2fr;
+    text-align: center;
+}
+.sobre .left1{
+    padding: 110px;
+    text-align: center;
+}
+
+.sobre .right1{
+    padding: 110px;
+    text-align: center;
+}
+
+.sobre .left2{
+    padding: 110px;
+    text-align: center;
+}
+
+.sobre .right2{
+    padding: 110px;
+    text-align: center;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    
+    
+}
+
+.produtos-texto{
+    position: relative;
+    text-align: center;
+   
+}
+.produtos-texto h2{
+    margin-top: 80px;
+    padding-bottom:20px;
+
+}
+.produtos-texto p{
+    margin-bottom: 15px;
+}
+.produtos-texto a{
+    color: blue;
+}
+/* team */
+.team{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+  
+    
+}
+
+.team .imgAspas{
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.team p{
+    font-size: 11px;
+}
+
+.team img{
+    
+display: flex;
+margin: 25px;
+width: 60px;
+
+}
+ .container {
+  display: flex;
+   position: absolute;
+   left:30px ;
+  align-self: flex-start;
+  margin: 20px;  
+
+
+}
+.container {
+    max-width: 100%;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+   
+    margin: 1em;
+   
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(36, 42, 59);
+    
+}
+.colaborador{
+    display: flex;
+}  
+.coluna .colaborador img{
+    display: flex;
+    left:5px;
+    top: 155px;
+    border-radius: 50px;
+    width: 45px;
+}
+
+.fundacao{
+    align-self: flex-start;
+    margin: 35px ;
+}
+
+.support{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 170px;
+    background-color: rgb(36, 42, 59);
+    left: 350px;
+    top: 110px;
+    
+}
+
+.tituloSuporte{
+    position: absolute;
+   padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloSuporte h2{
+   margin: 12px;
+   justify-content: center;
+   text-align: center;
+   font-size: 25px;
+}
+
+.tituloSuporte p{
+    text-align: center;
+    justify-content: center;
+    font-size: 13px ;
+}
+
+.support .form{
+    display: flex;
+    position: absolute;
+    top: 110px;
+    padding: 10px;
+   
+    
+    
+}
+
+.formularioEmail{
+    
+    border-radius: 25px;
+    width: 250px;
+    justify-content: center;
+   
+}
+
+.formularioEmail{
+    color: black;
+}
+
+.formulario{
+    
+    border-radius: 25px;
+    width: 150px;
+    color: blue;
+  
+}
+.formulario:hover{
+    color: rgb(15, 15, 15);
+    background-color: aqua;
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(33, 35, 53);
+
+    height: 300px;
+    
+    
+}
+footer .imgFooter{
+    width: 100px;
+    position: relative;
+    top: 145px;
+    left: 60px;
+   
+    
+}
+
+.footer{
+    position: relative;
+    top: 90px;
+     display: flex; 
+    padding: 25px;
+     text-align: center;  
+      justify-content: center; 
+     gap: 15px;
+    
+}
+
+.footer .maps{
+    display: flex;
+    width: 200px;
+    
+}
+.imgMaps{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:  280px;
+    gap: 5px;
+}
+
+.maps p{
+     padding: 5px;
+   
+    text-align: left;
+    
+}
+.numeroFooter{
+    display:grid;
+    padding: 5px;
+    margin: 5px;
+    gap: 10px;
+   
+    
+}
+.sobreFooter{
+    display: grid;
+    padding: 15px;
+}
+.contactFooter{
+ 
+ display: grid;
+ padding: 5px;
+ margin: 5px;
+ gap: 5px;
+ 
+}
+
+.iconesFooter{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    right: 115px;
+    gap: 15px;
+}
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */

@@ -1,0 +1,211 @@
+@media (max-width: 1301px) {
+    .support{
+       left: 200px;
+       
+    }
+    .container-heros{
+        text-align: center;
+        padding: 15px;
+    }
+    .rodape .imgFooter{
+        left: 10px;
+       
+    }
+    .rodape .imgMaps{
+        left: 120px;
+    }
+    .rodape .iconesFooter{
+        right: 10px;
+    }
+}
+/* 880 */
+@media (max-width: 831px) {
+    .support{
+       left: 200px;
+       
+    }
+    .container-heros{
+        text-align: center;
+        padding: 15px;
+    }
+    .rodape .imgFooter{
+        left: 10px;
+        top: 100px;
+       
+    }
+    .rodape .imgMaps{
+        left: 80px;
+
+    }
+    .rodape .iconesFooter{
+        left: 380px;
+        top: 150px;
+    }
+}
+@media(max-width: 749px){
+    .support {
+       
+       left: 130px;
+        
+    }
+}
+@media (max-width: 625px) {
+    .header .header-container{
+        display: block;
+    }
+
+    .header .header-container .imgLogo{
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    .header .header-container .cabecalho{
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+
+    } 
+    .sobre .left1 .paSobre{
+    
+        padding: 5px;
+       
+    }
+    .sobre .left1 .paSobre{
+    
+        padding: 5px;
+       
+    }
+    .sobre .right1 .paSobre{
+    
+        padding: 5px;
+       
+    }
+    .sobre .left2 .paSobre{
+    
+        padding: 5px;
+       
+    }
+    .sobre .right2 .paSobre{
+    
+        padding: 5px;
+       
+    }   
+    .team .container{
+        display: block;
+        
+     }
+     .support{
+       left: 50px;
+       top: 400px;
+        
+         
+     }
+
+     .rodape{
+        position: relative;
+        top: 400px;
+        display: block;
+     }
+     .footer{
+         display: block;
+         align-items: center;
+         justify-content: center;
+         
+     }
+     .rodape .imgFooter{
+         top: 50px;
+        left: 200px;
+     }
+     .maps .imgMaps{
+         top: 0px;
+         left: 200px;
+     }
+
+     .maps p{
+        
+        position: absolute;
+        text-align: center;
+        padding: 15px;
+     }
+
+     .numeroFooter .imgTelefone{
+        
+         position: relative;
+         top: 90px;
+        
+     }
+     .imgEmail{
+        
+        position: relative;
+        top: 90px;
+        
+    }
+    .sobreFooter{
+       
+        position: relative;
+        top: 100px;
+      
+    }
+    .contactFooter{
+        
+        position: relative;
+        top:110px;
+    }
+     .rodape .iconesFooter{
+      position:relative;
+       top: 120px;
+      left: 220px;
+         
+     }
+     .iconesFooter a:hover{
+       
+         background-color: rgb(226, 226, 240);
+     }
+   
+}
+@media(max-width:480px){
+    .header .header-container{
+        display: block;
+    }
+    .header .header-container .imgLogo{
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    .header .header-container .cabecalho ul{
+        display: block;
+        
+
+    } 
+    .header .header-container .cabecalho ul li{
+        display: block;
+        text-align: center;
+        padding: 15px;
+
+    } 
+    .sobre{
+        display: block;
+    }
+    
+    .produtos{
+        display: block;
+    }
+
+    .support{
+        display: block;
+       left: 0;
+      
+    }
+    .support .tituloSuporte{
+        display: block;
+        right: 70px;
+    }
+    
+   .footer .iconesFooter{
+       left: 160px;
+   }
+    
+
+}
